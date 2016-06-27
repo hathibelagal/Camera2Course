@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:title="Save"
+        android:id="@+id/menu_save"
+        app:showAsAction="always"/>
+
+    <item android:title="Grayscale"
+        android:id="@+id/filter_grayscale"/>
+
+    <item android:title="Sepia"
+        android:id="@+id/filter_sepia"/>
+
+    <item android:title="Emboss"
+        android:id="@+id/filter_emboss"/>
+
+    <item android:title="Toon"
+        android:id="@+id/filter_toon"/>
+
+    <item android:title="Haze"
+        android:id="@+id/filter_haze"/>
+
+</menu>
